@@ -23,14 +23,14 @@ const initialNodes = [
   {
     id: "1",
     type: "homeNode",
-    data: { value: "Home Node" },
+    data: { value: "Freaking Node" },
     position: { x: 250, y: 250 },
   },
 ];
 
 // we know these
 let id = 1;
-const getId = () => `node-${id++}`;
+const getId = () => `node-${++id}`;
 
 function Flow() {
   // we know these
