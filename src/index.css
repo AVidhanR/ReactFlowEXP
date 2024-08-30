@@ -1,9 +1,10 @@
 .custom-node-field {
   position: "absolute";
   z-index: 10;
-  top: 10;
+  right: 10;
   left: 10;
-  margin: 1rem;
+  background-color: #b8ceff;
+  padding: 0.4rem;
 
   > p {
     font-size: small;
@@ -24,3 +25,17 @@
     background-color: rgb(226, 226, 226);
   }
 }
+
+.custom-node-ui {
+  height: 100%;
+  border: 1px solid #000000;
+  padding: calc(0.65rem) calc(2.4rem);
+  border-radius: 0.2rem;
+  background: white;
+  font-size: small;
+}
+
+/* Need to change this in future */
+/* .custom-node-ui:active {
+  border: 1px solid #000000;
+} */
