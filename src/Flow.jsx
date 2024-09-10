@@ -23,7 +23,7 @@ const initialNodes = [
   {
     id: "1",
     type: "homeNode",
-    data: { value: "Freaking Node" },
+    data: { value: "Home Node" },
     position: { x: 250, y: 250 },
   },
 ];
